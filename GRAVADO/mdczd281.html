@@ -20,7 +20,8 @@
       justify-content: space-between;
       font-family: 'Open Sans', sans-serif;
       justify-content: flex-start;
-      cursor: pointer; /* Adicione o cursor pointer para indicar que é clicável */
+      cursor: pointer; 
+      width: 100px;
     }
 
     .audio-container img {
@@ -29,6 +30,7 @@
       border-radius: 50%;
       object-fit: cover;
       padding-right: 8px;
+      padding-left: 10px;
     }
 
     .audio-container .microphone-icon {
@@ -59,6 +61,7 @@
       color: #4a5464;
       color: var(--plyr-audio-control-color,#4a5464);
       margin-left: 0px;
+      padding: 0px;
     }
 
     .plyr--audio .plyr__control--overlaid .plyr__control__icon {
@@ -104,7 +107,6 @@
       margin-right: var(--plyr-control-spacing);
     }
 
-    /* Ocultar os controles de tempo */
     .plyr--audio .plyr__controls .plyr__controls__item.plyr__time--current.hide,
     .plyr--audio .plyr__controls .plyr__controls__item.plyr__time--duration.hide {
       display: none;
@@ -115,9 +117,9 @@
 <body>
   <div class="audio-container" id="audioContainer">
     <!-- Cole o link do Seu áudio Abaixo-->
-    <audio class="plyr" src="LINK-DO-SEU-ÁUDIO"></audio>
+    <audio class="plyr" src="https://s3.typebot.io/public/workspaces/clkdqfmtk0007lb0fivbha1oz/typebots/cllm1yff80001l20fq3ta346k/blocks/mnc2oayrcvtv7lk83mb8d8jc?v=1698026305513" autoplay></audio>
     <!-- Cole o link da Sua imagem Abaixo-->
-    <img src="https://i.imgur.com/cknxSJf.png" alt="Imagem">
+    <img src="https://i.imgur.com/kB5s9UF.jpg" alt="Imagem">
     <div class="microphone-icon">
       <i class="fas fa-microphone"></i>
     </div>
